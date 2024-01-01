@@ -1,0 +1,877 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+
+}
+/*--- Header Section start ---*/
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color:#f5fbff;
+}
+header div{
+	float: left;
+	align-items: center;
+}
+header .header-top .top-left{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+header .header-top .top-left ul{
+	list-style: none;
+	margin-left: 80px;
+}
+header .header-top .top-left ul li{
+	float: left;
+	padding: 3px 7px;
+
+}
+header .header-top .top-left ul li a{
+	color:rgba(189, 195, 199,1.0);
+	font-size: 16px;
+}
+header .header-top .top-right1, .top-right2{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+header .header-top .top-right1 ul{
+	list-style: none;
+	margin-right: 250px;
+}
+header .header-top .top-right1 ul li{
+float: left;
+padding: 5px;
+}
+header .header-top .top-right1 ul li a{
+	text-decoration: none;
+	color:rgba(149, 165, 166,1.0);
+	font-size: 15px;
+}
+header .header-top .top-right1 ul li a i{
+	color: rgba(52, 152, 219,1.0);
+}
+header .header-top .top-right2 ul{
+	list-style: none;
+	margin-right: 120px;
+}
+header .header-top .top-right2 ul li{
+float: left;
+padding: 5px;
+}
+header .header-top .top-right2 ul li a{
+	text-decoration: none;
+	color:rgba(149, 165, 166,1.0);
+	font-size: 13px;
+}
+header .header-top .top-right2 ul li a i{
+	color: rgba(52, 152, 219,1.0);
+}
+header .header-top .top-left ul li a:hover{
+	color: #009dff;
+}
+header .main-header-area{
+	width: 100%;
+	height: 150px;
+}
+header .main-header-area .main-header1{
+	position: relative;
+	top: 0;
+	left; 0;
+	margin: 47px 82px;
+}
+header .main-header-area .main-header1 img{
+	float: left;
+	padding: 23px 27px;
+}
+header .main-header-area .main-header2 ul{
+	list-style: none;
+	margin-left: 125px;
+	padding: 12px 0;
+}
+header .main-header-area .main-header2 ul li{
+	float: left;
+	margin-right: 15px;
+	padding: 55px 10px;
+}
+header .main-header-area .main-header2 ul li a{
+	text-decoration: none;
+	color:rgba(52, 73, 94,1.0);
+	font-size: 15px;
+	font-weight: 300;
+}
+header .main-header-area .main-header3{
+	margin-top: 65px;
+	margin-left: 94px;
+}
+header .main-header-area .main-header3 input{
+	padding: 13px 30px;
+	background-color:#009dff;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	border: 1px solid #009dff;
+}
+header .main-header-area .main-header3 input:hover{
+	background-color: #ffffff;
+	color:#5db2ff;
+	cursor: pointer;
+}
+
+
+
+/*--- Header Section end ---*/
+
+/*--- Section One Start ---*/
+section1{
+	margin: 0;
+	padding: 0;
+	background: #313131;
+}
+section1 .slider{
+	width: 970px;
+	height: 200px;
+	margin: 85px -245px;
+	padding: 250px 370px;
+	background: url(images/banner2.png.webp);
+	animation: slide 20s infinite;
+	
+	
+}
+section1 .slider h1{
+	font-size: 75px;
+	margin-top: -5px;
+	margin-left: 5px;
+	line-height: 0.5;
+}
+section1 .slider h3{
+	font-size: 70px;
+	font-weight: 300;
+	line-height: 0;
+}
+section1 .slider p{
+	font-size: 20px;
+	font-weight: normal;
+	color:#727272;
+	width: 520px;
+}
+section1 .slider input{
+	background-color:#009dff;
+	padding: 20px 50px;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	border: 1px solid #009dff;
+}
+section1 .slider input:hover{
+	background-color: #ffffff;
+	color:#5db2ff;
+	cursor: pointer;
+}
+
+
+
+@keyframes slide{
+	25%{
+	background: url(images/banner2.png.webp);
+}
+	50%{
+	background: url(images/banner.png.webp);
+}
+
+}
+
+/*--- Section One end ---*/
+/*--- Section Two start ---*/
+.section2{
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -84px;
+	
+	
+}
+.section2 div{
+	float: left;
+	width: 25%;
+	margin: 0 auto;
+	padding: 59px;
+}
+.section2 .hospital{
+	background-color:#83c4ff;
+}
+.section2 .hospital i{
+text-align: left;
+font-size: 55px;
+color: white;
+}
+.section2 .hospital h3{
+	font-size: 30px;
+	color: white;
+}
+.section2 .hospital p{
+	font-size: 20px;
+	color: white;
+}
+.section2 .hospital input{
+	padding: 13px 35px;
+	background-color:#83c4ff;
+	font-size: 15px;
+	color: white;
+	border: 1px solid white;
+}
+.section2 .hospital input:hover{
+	background-color: #ffffff;
+	color:#5db2ff;
+	cursor: pointer;
+}
+
+.section2 .emergency{
+	background-color:#5db2ff;
+}
+.section2 .emergency i{
+font-size: 55px;
+color: white;
+}
+.section2 .emergency h3{
+	font-size: 30px;
+	color: white;
+}
+.section2 .emergency p{
+	font-size: 20px;
+	color: white;
+}
+.section2 .emergency input{
+	padding: 13px 35px;
+	background-color:#83c4ff;
+	font-size: 15px;
+	color: white;
+	border: 1px solid white;
+}
+.section2 .emergency input:hover{
+	background-color: #ffffff;
+	color:#5db2ff;
+	cursor: pointer;
+}
+
+.section2 .chamber{
+	background-color:#83c4ff;
+}
+.section2 .chamber i{
+font-size: 55px;
+color: white;
+}
+.section2 .chamber h3{
+	font-size: 30px;
+	color: white;
+}
+.section2 .chamber p{
+	font-size: 20px;
+	color: white;
+}
+.section2 .chamber input{
+	padding: 13px 35px;
+	background-color:#83c4ff;
+	font-size: 15px;
+	color: white;
+	border: 1px solid white;
+}
+.section2 .chamber input:hover{
+	background-color: #ffffff;
+	color:#5db2ff;
+	cursor: pointer;
+}
+
+
+/*--- Section Two end ---*/
+/*--- Section Three start ---*/
+.section3{
+	width: 100%;
+	height: 620px;
+	margin: 0 auto;
+	text-align: center;	
+	margin-top: 193px;
+}
+
+.section3 .welcome_thumb{
+	width: 50%;
+	float: left;
+	padding-right: 80px;
+}
+
+.container {
+    position: relative;
+}
+.container img{
+	width: 45%;
+}
+.image2 {
+    position: absolute;
+    left: 418px;
+	bottom: -82px;
+}
+.section3 .welcome_docmed{
+	width: 40%;
+	float: left;
+	margin: 0 auto;
+}
+.section3 .welcome_docmed h3{
+	font-size: 18px;
+	font-weight: 300;
+	color:black;
+	text-align: left;
+	margin-left: 30px;
+}
+
+.section3 .welcome_docmed h1{
+	text-align: left;
+	width: 350px;
+	font-size: 35px;
+	margin-left: 30px;
+}
+.section3 .welcome_docmed p{
+	width: 80%;
+	font-size: 18px;
+	font-weight: 100;
+	color:rgba(149, 165, 166,1.0);
+	line-height: 1.5;
+	text-align: left;
+	margin-left: 38px;
+	margin-bottom: 27px;
+	
+}
+.section3 .welcome_docmed h3 u{
+  text-decoration-color: #5db2ff;
+  text-underline-offset: 0.5em;
+}
+.section3 .welcome_docmed .apartments{
+	text-align: left;
+}
+.section3 .welcome_docmed ul li{
+	list-style: none;
+	text-align: left;
+	font-size: 18px;
+	line-height: 1.5;
+	
+}
+.section3 .welcome_docmed ul li a{
+	text-decoration: none;
+	color: rgba(127, 140, 141,1.0);
+	font-weight: 100;
+	font-size: 18px;
+	text-align: left;
+}
+.section3 .welcome_docmed ul li i{
+	color: #5db2ff;
+	font-size: 15px;
+	font-weight: 300;
+}
+.section3 .welcome_docmed input{
+	background-color: white;
+	padding: 9px 24px;
+	border: 1px solid #5db2ff;
+	color: #5db2ff;
+	font-size: 15px;
+	border-radius: 5px;
+	margin-right: 342px;
+	margin-top: 15px;
+}
+.section3 .welcome_docmed input:hover{
+	background-color:#5db2ff;
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
+/*--- Section Three end ---*/
+/*--- Section Four start ---*/
+.section4{
+	width: 100%;
+	height: 1320px;
+	background-color: #f5fbff;
+	text-align: center;
+	margin: 0 auto;
+}
+.image{
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+	float: left;
+}
+.section4 .departments{
+	width: 100%;
+	height: 200px;
+	align-items: center;
+	padding-top: 95px;
+}
+
+.section4 .departments h1{
+	font-size: 35px;
+	font-weight: 500;
+}
+.section4 .departments h1 u{
+	text-decoration-color: #5db2ff;
+	text-underline-offset: 0.5em;
+}
+.section4 .departments p{
+	color: #727272;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5;
+	
+}
+.section4 .department1, .department2{
+	width: 80%;
+	float: left;
+	padding: 0 85px;
+	margin-left: 60px;
+}
+.section4 .department2{
+	margin-top: 35px;
+}
+figure{
+	overflow: hidden;
+	margin: 0 15px;
+}
+.section4 .department1 .text, .department2 .text{
+background-color: #ffffff;
+  width: 86%;
+  height: 200px;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  padding-left: 27px;
+  padding-right: 0px;
+  margin-left: 15px;
+}
+
+.section4 .department1 .text h2{
+	text-align: left;
+}
+.section4 .department1 .text h2:hover{
+	color: #5db2ff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.section4 .department1 .text p{
+	text-align: left;
+	color: #727272;
+	font-weight: 300;
+	line-height: 28px;
+}
+.section4 .department1 .text h4{
+	text-align: left;
+	color:#5db2ff;
+	font-weight: 300;
+}
+.section4 .department1 .text h4:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+
+.section4 .department2 .text h2{
+	text-align: left;
+}
+.section4 .department2 .text h2:hover{
+	color: #5db2ff;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.section4 .department2 .text p{
+	text-align: left;
+	color: #727272;
+	font-weight: 300;
+	line-height: 28px;
+}
+.section4 .department2 .text h4{
+	text-align: left;
+	color:#5db2ff;
+	font-weight: 300;
+}
+.section4 .department2 .text h4:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+
+.image img{
+	display: block;
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+	
+}
+.image #zoom-in img{
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+.image #zoom-in:hover img{
+	transform: scale(1.2);
+}
+
+/*--- Section Four end ---*/
+/*--- Section Four end ---*/
+/*--- Section Five start ---*/
+.section5{
+	margin: 0;
+	padding: 0;
+}
+.section5 .big-image{
+	width: 1920px;
+	height: 620px;
+	position: relative;
+	background-image: url(images/9.png.webp);
+	background-size: cover;
+	margin: 5px -238px;
+	padding 30px 35px;
+	animation: subtitlefade ease 1.5s;
+}
+
+.section5 .overlay-text{
+width: 1920px;
+height: 620px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+background-color: rgba(0,0,0,0.3);
+
+	
+}
+.section5 .overlay-text i{
+	font-size: 35px;
+	color: white;
+}
+.section5 .overlay-text p{
+	color: white;
+	font-size: 23px;
+	font-weight: 100;
+	line-height: 1.5;
+}
+.section5 .overlay-text h4{
+	color: white;
+	font-size: 13px;
+	font-weight: 100;
+}
+/*--- Section Five end ---*/
+/*--- Section Six start ---*/
+.hero{
+	width: 80%;
+	height: 450px;
+	position: relative;
+	margin: 0 auto;
+}
+.btn-box{
+	width: 100%;
+	background-color: #f5fbff;
+	padding-top: 20px;
+	padding-bottom: 55px;
+	margin-bottom: 18px;
+	
+}
+.btn-box button{
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	margin-right: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5% auto;
+}
+.content-left{
+	flex-basis: 50%;
+}
+.content-left i {
+	background: #5DB2FF;
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+	color: #fff;
+	font-size: 35px;
+	text-align: center;
+	line-height: 75px;
+	border-radius: 50%;
+	
+}
+.content-left h3{
+	font-size: 22px;
+	font-weight: bold;
+}
+.content-left p{
+	font-size: 18px;
+	color: #727272;
+	font-weight: 100;
+}
+.content-right{
+	flex-basis: 50%;
+}
+/*--- Section Six end ---*/
+
+/*--- Section Seven start ---*/
+
+.section7{
+	width: 100%;
+	height: 620px;
+	background-color: #ffffff;
+	text-align: center;
+	margin: 0 auto;
+}
+.section7 .image{
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	float: left;
+	margin-bottom: 10px;
+}
+.section7 .expert{
+	width: 100%;
+	height: 200px;
+	margin-top: 200px;
+	text-align: left;
+	padding-left: 155px;
+	padding-top: 50px;
+}
+
+.section7 .doctors h1{
+	font-size: 35px;
+	font-weight: 500;
+}
+
+.section7 .doctors p{
+	color: #727272;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5;
+	
+}
+.section7 .doctors{
+	width: 80%;
+	float: left;
+	padding: 0 85px;
+	margin-left: 60px;
+	margin-top: -100px;
+}
+
+figure{
+	overflow: hidden;
+	margin: 0 15px;
+}
+.section7 .doctors .text{
+background-color: #f5fbff;
+  width: 82%;
+  height: 100px;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  padding-left: 27px;
+  padding-right: 0px;
+  margin-left: 15px;
+}
+
+.section7 .doctors .text h2{
+	text-align: left;
+	font-size:20px;
+	font-weight: 500;
+}
+.section7 .doctors .text h4{
+	text-align: left;
+	font-weight: 100;
+	line-height: 28px;
+}
+
+.section7 .doctors .text:hover{
+	background: #5db2ff;
+	cursor: pointer;
+	color: #ffffff;
+	transition: 0.5s;
+	
+}
+/*--- Section Seven end ---*/
+/*--- Section Eight start ---*/
+
+.section8{
+	width:100%;
+	height: 200px;
+}
+
+.section8 .big-image1{
+	width: 50%;
+	height: 7px;
+	position: relative;
+	float: left;
+	padding: 117px 46px;
+	margin-left: -100px;
+	background-image: url(images/emergency-1.png.webp);
+	background-size: cover;
+}
+.section8 .big-image2{
+	width: 50%;
+	position: relative;
+	float: left;
+	padding: 120px 50px;
+	margin-right: -106px;
+	background-image: url(images/emergency-2.png.webp);
+	background-size: cover;
+}
+
+
+.section8 .big-image1 .overlay{
+width: 50%;
+height: 200px;
+top: 0;
+left: 0;
+padding: 21px 201px;
+position: absolute;
+background-color:rgba(0, 144, 237, 0.7);
+
+	
+}
+
+.section8 .big-image2 .overlay{
+width: 50%;
+top: 0;
+left: 0;
+padding: 37px 155px;
+position: absolute;
+background-color:rgba(0, 144, 237, 0.7);
+
+	
+}
+.section8 .big-image1 .overlay h2{
+	font-size: 23px;
+	color: white;
+	padding-top: 50px;
+	font-weight: 600;
+}
+.section8 .big-image1 .overlay h4{
+	font-size: 16px;
+	color: white;
+	font-weight: 400;
+}
+.section8 .big-image1 .overlay input{
+	background-color: #79befc;
+	color: white;
+	font-size: 15px;
+	padding: 15px 25px;
+	margin-left: 347px;
+	border: 1px solid;
+	border-radius: 30px;
+}
+.section8 .big-image1 .overlay input:hover{
+	background-color: #fff;
+	color:rgba(41, 128, 185,1.0);
+	transition: 0.5s;
+	cursor: pointer;
+	font-weight: 500;
+}
+.section8 .big-image2 .overlay h2{
+	font-size: 23px;
+	color: white;
+	padding-top: 8px;
+	font-weight: 600;
+}
+.section8 .big-image2 .overlay h4{
+	font-size: 16px;
+	color: white;
+	font-weight: 400;
+}
+.section8 .big-image2 .overlay input{
+	background-color: #79befc;
+	color: white;
+	font-size: 15px;
+	padding: 15px 25px;
+	margin-left: 347px;
+	border: 1px solid;
+	border-radius: 30px;
+}
+.section8 .big-image2 .overlay input:hover{
+	background-color: #fff;
+	color:rgba(41, 128, 185,1.0);
+	transition: 0.5s;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+.footer-area{
+	width: 100%;
+	height: 600px;
+	background-color: #1f1f1f;
+	margin: 0 auto;
+	
+}
+.footer-area div{
+	float: left;
+	align-items: center;
+	
+}
+.footer-area .footer-left{
+	position: absolute;
+	margin-left: 170px;
+	
+}
+.footer-area .footer-left img{
+	margin-top: 200px;
+}
+.footer-area .footer-left p{
+	font-size: 18px;
+	color: rgba(189, 195, 199,1.0);
+	padding: 25px 3px;
+	line-height: 1.5;
+	
+}
+.footer-area .footer-left i{
+	background-color: #BABABA;
+	padding: 20px 15px;
+}
+.footer-area .footer-left i:hover{
+	color: #fff;
+	cursor: pointer;
+}
+
+.footer-right1, .footer-right2, .footer-right3{
+	color: rgba(189, 195, 199,1.0);
+	margin-top: 130px;
+	padding: 10px 18px;
+	
+}
+.footer-right1 h1{
+	font-size: 25px;
+	font-weight: 300;
+	padding-bottom: 15px;
+	padding-right: 18px;
+}
+.footer-right2 h1{
+	font-size: 25px;
+	font-weight: 300;
+	padding-bottom: 15px;
+	padding-right: 18px;
+}
+.footer-right3 h1{
+	font-size: 25px;
+	font-weight: 300;
+	padding-bottom: 15px;
+	padding-right: 18px;
+}
+.copyright-text{
+	width: 100%;
+	height: 55px;
+	background-color:#000000;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+}
